@@ -1,0 +1,10 @@
+---
+sudo: required
+language: bash
+services:
+  - docker
+branches:
+  only:
+    - master
+script:
+  - curl radia.run | bash -s container-build
