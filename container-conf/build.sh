@@ -7,7 +7,7 @@ build_as_run_user() {
     if [[ $TRAVIS == true ]]; then
         while true; do
             echo "$(date): some noise for travis"
-            sleep 600
+            sleep 60
         done &
         noise_pid=$!
     fi
