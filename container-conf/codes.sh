@@ -13,9 +13,9 @@
 set -e
 
 # Build scripts directory
-: ${CODES_DIR:=$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd)/codes}
+: ${codes_dir:=$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd)/codes}
 
-codes_data_src_dir=$CODES_DIR/data
+codes_data_src_dir=$codes_dir/data
 
 # Where to install binaries (needed by genesis.sh)
 codes_bin_dir=$(dirname "$(pyenv which python)")
@@ -131,7 +131,7 @@ codes_install() {
     if [[ ! -f $sh ]]; then
         # Might be passed as 'genesis', 'genesis.sh', 'codes/genesis.sh', or
         # (some special name) 'foo/bar/code1.sh'
-        sh=$CODES_DIR/$module.sh
+        sh=$codes_dir/$module.sh
     fi
     codes_msg "Build: $module"
     codes_msg "Directory: $dir"
@@ -150,13 +150,13 @@ codes_install_loop() {
 codes_main() {
     local -a codes=$@
     if [[ ! $codes ]]; then
-        codes=( "$CODES_DIR"/*.sh )
+        codes=( "$codes_dir"/*.sh )
     fi
     codes_install_loop "${codes[@]}"
 }
 
 codes_msg() {
-    echo "$@" 1>&2
+    echo "$(date -u +%H:%M:%SZ)" "$@" 1>&2
 }
 
 codes_patch_requirements_txt() {

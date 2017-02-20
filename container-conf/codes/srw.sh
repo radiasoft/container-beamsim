@@ -1,7 +1,6 @@
 #!/bin/bash
-codes_dependencies common
+#in part1: codes_dependencies common
 codes_yum install fftw2-devel
-codes_dependencies mpi4py
 srw_pwd=$PWD
 codes_download mrakitin/bnlcrl
 codes_patch_requirements_txt
