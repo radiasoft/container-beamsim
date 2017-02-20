@@ -7,4 +7,4 @@ branches:
   only:
     - master
 script:
-  - curl radia.run | bash -s container-build
+  - curl radia.run | travis_wait 60 bash -s container-build
