@@ -54,11 +54,11 @@ codes_download() {
                 # Don't pass --depth in this case for a couple of reasons:
                 # 1) we don't know where the commit is; 2) It might be a simple http
                 # transport (synergia.sh) which doesn't support git
-                git clone -q "$repo"
+                git clone --recursive -q "$repo"
                 cd "$d"
                 git checkout "$qualifier"
             else
-                git clone -q --depth 1 "$repo"
+                git clone --recursive --depth 1 "$repo"
                 cd "$d"
             fi
             local manifest=(
