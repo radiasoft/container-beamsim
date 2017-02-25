@@ -1,4 +1,4 @@
-### Beam Simulation Container (radiasoft/beamsim)
+### Beam Simulation Container (radiasoft/beamsim) [![Build Status](https://travis-ci.org/radiasoft/container-beamsim.svg?branch=master)](https://travis-ci.org/radiasoft/container-beamsim)
 
 The following particle accelerator and free electron laser (FEL) simulation
 codes are installed in the radiasoft/beamsim container:
