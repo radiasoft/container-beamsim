@@ -119,7 +119,7 @@ codes_err() {
 
 codes_install() {
     local sh=$1
-    local module=$(basename $sh .sh)
+    local module=$(basename "$sh" .sh)
     if [[ ${codes_installed[$module]} ]]; then
         return 0
     fi
@@ -148,7 +148,7 @@ codes_install_loop() {
 }
 
 codes_main() {
-    local -a codes=$@
+    local -a codes=( $@ )
     if [[ ! $codes ]]; then
         codes=( "$codes_dir"/*.sh )
     fi
