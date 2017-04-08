@@ -106,7 +106,7 @@ codes_download() {
             venv=( $(pyenv version) )
             venv=${venv[0]}
         fi
-        pykern rsmanifest add_code --virtual-env="$venv" \
+        pykern rsmanifest add_code --pyenv="$venv" \
             "${package:-${manifest[0]}}" "${version:-${manifest[1]}}" "$repo" "$(pwd)"
     fi
     return 0
