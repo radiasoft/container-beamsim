@@ -112,6 +112,13 @@ codes_download() {
     return 0
 }
 
+codes_download_foss() {
+    local path=$1
+    shift
+    codes_download https://depot.radiasoft.org/foss/"$path" "$@"
+}
+    
+
 codes_err() {
     codes_msg "$@"
     return 1
