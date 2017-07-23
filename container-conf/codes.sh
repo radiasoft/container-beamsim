@@ -15,7 +15,7 @@ set -e
 # Build scripts directory
 : ${codes_dir:=$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd)/codes}
 
-codes_data_src_dir=$codes_dir/data
+codes_data_src_dir=$codes_dir
 
 # Where to install binaries (needed by genesis.sh)
 codes_bin_dir=$(dirname "$(pyenv which python)")
@@ -117,7 +117,7 @@ codes_download_foss() {
     shift
     codes_download https://depot.radiasoft.org/foss/"$path" "$@"
 }
-    
+
 
 codes_err() {
     codes_msg "$@"
