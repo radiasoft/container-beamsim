@@ -1,5 +1,5 @@
 #!/bin/bash
-codes_dependencies common
+#codes_dependencies common
 # original source has bad ssl cert:
 # https://amas.psi.ch/H5hut/raw-attachment/wiki/DownloadSources/H5hut-1.99.13.tar.gz
 # Doc: https://amas.psi.ch/H5hut/wiki/H5hutInstall
