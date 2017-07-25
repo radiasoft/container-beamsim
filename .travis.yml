@@ -1,8 +1,4 @@
 ---
-# 2017-03-14: MR - trigger SRW container build after fixing radiasoft/sirepo#696 and mrakitin/SRW#35.
-# 2017-03-17: MR - add SRW test.
-# FRC
-# 2017-06-14: MR - force build after fixing pandas depencency (radiasoft/devops#98).
 sudo: required
 language: bash
 services:
