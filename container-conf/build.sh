@@ -1,5 +1,5 @@
 #!/bin/bash
-build_image_base=radiasoft/beamsim-part1
+build_image_base=radiasoft/beamsim-part2
 build_travis_trigger_next=( radiasoft/sirepo beamsim-jupyter )
 
 build_as_run_user() {
