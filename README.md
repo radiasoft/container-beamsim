@@ -14,6 +14,14 @@ codes are installed in the radiasoft/beamsim container:
   amplifier and SASE FEL, although the flexible input can be used to
   easily extend the capacity to cover FEL oscillators or multistage
   set-ups.
+* [Hellweg](https://github.com/radiasoft/rslinac) simulates
+  high-average-power, traveling wave (TW) electron linacs, including
+  the important effects of beam loading. It can also be used for
+  modeling beam transport with a variety of standard elements.
+* [OPAL](https://gitlab.psi.ch/OPAL/src/wikis/home) (Object Oriented
+  Particle Accelerator Library) is an open source C++ framework for
+  general particle accelerator simulations including 3D space charge,
+  short range wake fields and particle matter interaction.
 * [Shadow3](http://forge.epn-campus.eu/projects/shadow3)
   is used to study propagation of a photon beam through an optical
   system. The program is general, but is optimized for the case of
