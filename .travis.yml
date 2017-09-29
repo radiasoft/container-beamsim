@@ -1,5 +1,5 @@
 ---
-# frc
+# FRC
 sudo: required
 language: bash
 services:
