@@ -8,4 +8,4 @@ branches:
   only:
     - master
 script:
-  - curl radia.run | bash -s container-build
+  - curl radia.run | build_debug=1 bash -s debug container-build
