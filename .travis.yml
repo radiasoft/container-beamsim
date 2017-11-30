@@ -1,5 +1,4 @@
 ---
-#frc
 sudo: required
 language: bash
 services:
@@ -8,4 +7,4 @@ branches:
   only:
     - master
 script:
-  - curl radia.run | bash -s container-build
+  - curl radia.run | bash -s debug container-build
