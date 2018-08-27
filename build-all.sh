@@ -5,7 +5,7 @@
 set -euo pipefail
 export build_push=1
 cd ~/src/radiasoft
-for f in python2 beamsim-part1 beamsim-part2 beamsim; do
+for f in python2 beamsim; do
     cd "container-$f"
     git pull
     git checkout master
