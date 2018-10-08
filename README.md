@@ -7,12 +7,6 @@ codes are installed in the radiasoft/beamsim container:
   orbits, floor coordinates, amplification factors, dynamic aperture,
   and more. It does 6-D tracking with matrices and/or canonical
   integrators, and supports a variety of time-dependent elements.
-* [Genesis 1.3 (3.0 beta)](http://genesis.web.psi.ch)
-  is a time-dependent three-dimensional free electron laser (FEL)
-  code, which simulates single-pass free-electron lasers, both FEL
-  amplifier and SASE FEL, although the flexible input can be used to
-  easily extend the capacity to cover FEL oscillators or multistage
-  set-ups.
 * [Hellweg](https://github.com/radiasoft/rslinac) simulates
   high-average-power, traveling wave (TW) electron linacs, including
   the important effects of beam loading. It can also be used for
