@@ -5,4 +5,5 @@ build_is_public=1
 
 build_as_run_user() {
     install_repo_eval beamsim-codes
+    build_run_user_home_chmod_public
 }
