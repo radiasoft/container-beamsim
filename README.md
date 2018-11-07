@@ -1,4 +1,5 @@
 ### Beam Simulation Container (radiasoft/beamsim)
+
 The following particle accelerator and free electron laser (FEL) simulation
 codes are installed in the radiasoft/beamsim container:
 
@@ -50,10 +51,3 @@ codes are installed in the radiasoft/beamsim container:
   space-charge effects in bent accelerator lattices (resolution can be
   placed where needed) associated with rings and beam transfer lines
   with dipole bends.
-
-
-### Build Info
-
-* [Vagrant repository](https://atlas.hashicorp.com/radiasoft/boxes/beamsim)
-* [Docker repository](https://hub.docker.com/r/radiasoft/beamsim)
-* [Base container config: radiasoft/python2](https://github.com/radiasoft/containers/tree/master/vagrant/radiasoft/python2).
