@@ -20,7 +20,7 @@ codes are installed in the radiasoft/beamsim container:
   Particle Accelerator Library) is an open source C++ framework for
   general particle accelerator simulations including 3D space charge,
   short range wake fields and particle matter interaction.
-* [Shadow3](http://forge.epn-campus.eu/projects/shadow3)
+* [Shadow3](https://github.com/oasys-kit/shadow3)
   is used to study propagation of a photon beam through an optical
   system. The program is general, but is optimized for the case of
   X-rays and reflective optics such as those encountered in the XUV
@@ -51,3 +51,11 @@ codes are installed in the radiasoft/beamsim container:
   space-charge effects in bent accelerator lattices (resolution can be
   placed where needed) associated with rings and beam transfer lines
   with dipole bends.
+* [Zgoubi](https://sourceforge.net/projects/zgoubi/) calculates
+  trajectories of charged particles in magnetic and electric
+  fields. At the origin specially adapted to the definition and
+  adjustment of beam lines and magnetic spectrometers, it has so
+  evolved that it allows the study of systems including complex
+  sequences of optical elements such as dipoles, quadrupoles,
+  arbitrary multipoles, FFAG magnets and other magnetic or electric
+  devices, and is able as well to handle periodic structures.
