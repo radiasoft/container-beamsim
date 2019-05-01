@@ -8,10 +8,12 @@ codes are installed in the radiasoft/beamsim container:
   orbits, floor coordinates, amplification factors, dynamic aperture,
   and more. It does 6-D tracking with matrices and/or canonical
   integrators, and supports a variety of time-dependent elements.
+<!-- 
 * [Hellweg](https://github.com/radiasoft/rslinac) simulates
   high-average-power, traveling wave (TW) electron linacs, including
   the important effects of beam loading. It can also be used for
   modeling beam transport with a variety of standard elements.
+-->
 * [JSPEC](https://github.com/zhanghe9704/electroncooling) is an open
   source C++ package for numerical simulations on the electron cooling
   process, including the intrabeam scattering (IBS) effect, developed
