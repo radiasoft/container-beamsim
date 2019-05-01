@@ -21,10 +21,6 @@ codes are installed in the radiasoft/beamsim container:
   includes collective effects, including space charge and wake fields,
   in various approximations ranging from the very simple to
   computationally-intense, 3-dimensional field calculations.
-<!-- * [Hellweg](https://github.com/radiasoft/rslinac) simulates
-  high-average-power, traveling wave (TW) electron linacs, including
-  the important effects of beam loading. It can also be used for
-  modeling beam transport with a variety of standard elements. -->
 * [JSPEC](https://github.com/zhanghe9704/electroncooling) is an open
   source C++ package for numerical simulations on the electron cooling
   process, including the intrabeam scattering (IBS) effect, developed
@@ -59,3 +55,9 @@ codes are installed in the radiasoft/beamsim container:
   sequences of optical elements such as dipoles, quadrupoles,
   arbitrary multipoles, FFAG magnets and other magnetic or electric
   devices, and is able as well to handle periodic structures.
+<!-- 
+* [Hellweg](https://github.com/radiasoft/rslinac) simulates
+  high-average-power, traveling wave (TW) electron linacs, including
+  the important effects of beam loading. It can also be used for
+  modeling beam transport with a variety of standard elements.
+-->
