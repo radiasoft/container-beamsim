@@ -21,6 +21,8 @@ codes are installed in the radiasoft/beamsim container:
   Particle Accelerator Library) is an open source C++ framework for
   general particle accelerator simulations including 3D space charge,
   short range wake fields and particle matter interaction.
+* [Pydicom]() is a pure Python package for working with DICOM files
+  such as medical images, reports, and radiotherapy objects.
 * [PyMesh](https://github.com/PyMesh/PyMesh) is a rapid prototyping
   platform focused on geometry processing. PyMesh is written with both
   C++ and Python, where computational intensive functionalities are
