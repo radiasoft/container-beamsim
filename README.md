@@ -21,6 +21,11 @@ codes are installed in the radiasoft/beamsim container:
   Particle Accelerator Library) is an open source C++ framework for
   general particle accelerator simulations including 3D space charge,
   short range wake fields and particle matter interaction.
+* [PyMesh](https://github.com/PyMesh/PyMesh) is a rapid prototyping
+  platform focused on geometry processing. PyMesh is written with both
+  C++ and Python, where computational intensive functionalities are
+  realized in C++, and Python is used for creating minimalistic and
+  easy to use interfaces.
 * [Radia](http://www.esrf.eu/Accelerators/Groups/InsertionDevices/Software/Radia/Documentation/Introduction)
   solves physical and technical problems one encounters during the
   development of Insertion Devices for Synchrotron Light
