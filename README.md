@@ -13,6 +13,12 @@ codes are installed in the radiasoft/beamsim container:
   worldwide to create distributed soft real-time control systems for
   scientific instruments such as a particle accelerators, telescopes
   and other large scientific experiments.
+* [HYPRE](https://rsft.us/beamsim/hypre) is an open source library of
+  linear solvers makes possible larger, more detailed simulations by
+  solving problems faster than traditional methods at large scales. It
+  offers a comprehensive suite of scalable solvers for large-scale
+  scientific simulation, featuring parallel multigrid methods for both
+  structured and unstructured grid problems.
 * [JSPEC](https://rsft.us/beamsim/jspec) is an open
   source C++ package for numerical simulations on the electron cooling
   process, including the intrabeam scattering (IBS) effect, developed
