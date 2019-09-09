@@ -34,11 +34,9 @@ The following simulation codes are installed in the radiasoft/beamsim container:
   realized in C++, and Python is used for creating minimalistic and
   easy to use interfaces.
 * [Radia](https://rsft.us/beamsim/radia)
-  solves physical and technical problems one encounters during the
-  development of Insertion Devices for Synchrotron Light
-  Sources. However, it can also be used in different branches of
-  physics, where efficient solutions of 3D boundary problems of
-  Magnetostatics are needed.
+  is a magnet design code used for insertion devices for Synchrotron light
+  sources. It can be used wherever efficient solutions for 3D boundary problems of
+  magnetostatics are needed.
 * [Shadow3](https://rsft.us/beamsim/shadow3)
   is used to study propagation of a photon beam through an optical
   system. The program is general, but is optimized for the case of
