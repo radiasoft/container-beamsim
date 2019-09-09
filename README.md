@@ -1,7 +1,6 @@
 ### Beam Simulation Container (radiasoft/beamsim)
 
-The following particle accelerator and free electron laser (FEL) simulation
-codes are installed in the radiasoft/beamsim container:
+The following simulation codes are installed in the radiasoft/beamsim container:
 
 * [elegant](https://rsft.us/beamsim/elegant)
   is an accelerator code that computes beta functions, matrices,
