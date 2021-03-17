@@ -13,12 +13,12 @@ The following simulation codes are installed in the radiasoft/beamsim container:
   scientific instruments such as a particle accelerators, telescopes
   and other large scientific experiments.
 * [FEniCS](https://fenicsproject.org) is a popular open-source (LGPLv3)
-  computing platform for solving partial differential equations (PDEs). 
-  FEniCS enables users to quickly translate scientific models into efficient 
+  computing platform for solving partial differential equations (PDEs).
+  FEniCS enables users to quickly translate scientific models into efficient
   finite element code.
-* [Genesis 1.3](http://genesis.web.psi.ch/index_old.html) is a simulation 
-  code to calculate the performance of Free-Electron Lasers (FEL), where 
-  the kinetic energy of electrons is transferred into a tunable, 
+* [Genesis 1.3](http://genesis.web.psi.ch/index_old.html) is a simulation
+  code to calculate the performance of Free-Electron Lasers (FEL), where
+  the kinetic energy of electrons is transferred into a tunable,
   high-brightness radiation source.
 * [HYPRE](https://rsft.us/beamsim/hypre) is an open source library of
   linear solvers makes possible larger, more detailed simulations by
@@ -34,6 +34,9 @@ The following simulation codes are installed in the radiasoft/beamsim container:
   written in Python and capable of running on top of TensorFlow, CNTK,
   or Theano. It was developed with a focus on enabling fast
   experimentation.
+* [MAD-X](http://madx.web.cern.ch/madx/) is a general-purpose tool for
+  charged-particle optics design and studies in alternating-gradient
+  accelerators and beam lines.
 * [OPAL](https://rsft.us/beamsim/opal) (Object Oriented
   Particle Accelerator Library) is an open source C++ framework for
   general particle accelerator simulations including 3D space charge,
@@ -58,8 +61,8 @@ The following simulation codes are installed in the radiasoft/beamsim container:
   open-source software for mathematics, science, and engineering. In
   particular, these are some of the core packages: NumPy, SciPy
   library, Matplotlib, IPython, Sympy, Pandas.
-* [SHADOW](https://github.com/oasys-kit/shadow3) is an open source ray tracing 
-  code for modeling optical systems.Targeted to synchrotron radiation beamlines, 
+* [SHADOW](https://github.com/oasys-kit/shadow3) is an open source ray tracing
+  code for modeling optical systems.Targeted to synchrotron radiation beamlines,
   it has unique features for designing X-ray optical systems.
 * [SRW](https://rsft.us/beamsim/srw)
   is a physical optics computer code for calculation of detailed
@@ -94,3 +97,10 @@ The following simulation codes are installed in the radiasoft/beamsim container:
   sequences of optical elements such as dipoles, quadrupoles,
   arbitrary multipoles, FFAG magnets and other magnetic or electric
   devices, and is able as well to handle periodic structures.
+
+The codes are built as Fedora RPMs
+([build scripts](https://github.com/radiasoft/download/tree/master/installers/rpm-code/codes)),
+which are then installed in the Docker image.
+
+The RPMs can also be installed inside Vagrant/VirtualBox
+([install instructions](https://github.com/radiasoft/sirepo/wiki/Development#mac-install)).
