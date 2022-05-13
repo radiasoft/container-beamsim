@@ -4,7 +4,9 @@ build_image_base=radiasoft/fedora
 build_is_public=1
 
 build_as_root() {
-    install -m 555 rsentry.sh /rsentry
+    export build_run_user_home
+    build_replace_vars rsentry.sh /rsentry
+    chmod a=rx /rsentry
 }
 
 build_as_run_user() {
